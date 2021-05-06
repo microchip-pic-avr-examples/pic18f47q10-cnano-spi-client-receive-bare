@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-spi-client-receive-bare",
-        "version": " ",
-        "displayName": "PIC18F47Q10 cnano spi client receive bare",
+        "version": "1.0.0",
+        "displayName": "Receiving Data as an SPI Device",
         "projectName": "pic18f47q10-cnano-spi-client-receive-bare",
-        "shortDescription": "This repository contains an example of bare metal source code for SPI which will be configured as client and it will be used to receive data from a host device",
+        "shortDescription": "In this demo, the SPI is configured as client and it is used to receive data from a host device.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.30.0"
         },
         "compiler": [
-            {
-                "name": "XC8",
-                "semverRange": "^2.10.0"
-            }
-        ],
+			{
+				"name": "XC8",
+				"semverRange": "^2.10.0"
+			}
+		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -36,20 +36,32 @@
                 "versionRange": "*"
             }
         },
-        "author": "Iustinian Bujor",
-        "subcategories": [],
-        "peripherals": [],
-        "keywords": [],
-        "additionalData": {
-            "longDescription": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "fileName": "./README.md",
-                    "mimeType": "text/markdown"
-                }
-            }
-        }
-    }
+        "author": "Microchip",
+        "subcategories": [
+            "Peripherals",
+            [
+               "Peripherals", "MSSP"
+            ]           			
+        ],
+        "peripherals": [
+            "MSSP"
+        ],
+        "keywords": [
+            "Data Transfer",
+            "Serial Communication",
+            "Receive",
+            "Bare Metal"
+        ],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
 }
