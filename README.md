@@ -1,5 +1,5 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="Images/Microchip.png" alt="MCHP" width="300";"></a></p>
+ <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
 
 # PIC18F47Q10 Receiving Data as a Client SPI Device
 
@@ -58,7 +58,7 @@ The following configurations must be made for this project:
 4. Select the *PIC18F47Q10 Curiosity Nano* in the *Hardware Tool* section of the project settings:
   - Right click on the project and click *Properties*;
   - Select the *PIC18F47Q10 Curiosity Nano* (click on the SN) in the *Hardware Tool* tab and then click *OK*:
-<br><img src="Images/SPI-client-receive-bare-tool.PNG" width="600">
+<br><img src="images/SPI-client-receive-bare-tool.PNG" width="600">
 
 
 5. Program the project to the board: right click on the project and click *Make and Program Device*.
@@ -69,7 +69,7 @@ Result:
 - Channel 2 -> Client SDO/Host SDI
 - Channel 3 -> SS1
 - Channel 4 -> SS2 (for other client device)
-<br><img src="Images/client-receive.png" width="600">
+<br><img src="images/client-receive.png" width="600">
 
 
 ## Summary
