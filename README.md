@@ -1,5 +1,5 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+ <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300";"></a></p>
 
 # PIC18F47Q10 Receiving Data as a Client SPI Device
 
@@ -25,7 +25,7 @@ This repository contains an example of bare-metal source code for SPI as describ
 ## Setup
 The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 
-<br><img src="Images/PIC18F47Q10_CNANO.png" width="600">
+<br><img src="images/PIC18F47Q10_CNANO.png" width="600">
 
 The following configurations must be made for this project:
 - Clock
